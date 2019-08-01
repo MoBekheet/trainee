@@ -2,17 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trainee</title>
-    <link rel="stylesheet" href="css/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Trainee</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <h1>hello world</h1>
+	<div class="container py-5">
+		<div class="form-group">
+			<label for="Product Name">Product Name</label>
+			<input class="form-control" id="productName" type="text">
+		</div>
+		<div class="form-group">
+			<label for="Product Price">Product Price</label>
+			<input class="form-control" id="productPrice" type="number">
+		</div>
+		<div class="form-group">
+			<label for="Product Company">Product Company</label>
+			<input class="form-control" id="productComp" type="text">
+		</div>
+		<div class="form-group">
+			<label for="Product Description">Product Description</label>
+			<textarea class="form-control" id="productDesc"></textarea>
+		</div>
+		<button id="submit" class="btn btn-info float-right">Add Product</button>
+		<div class="clearfix"></div>
 
-    <script src="js/main.js"></script>
+	</div>
+	<div class="container py-5 text-center">
+		<h2 class="text-dark text-uppercase py-5">Our Products</h2>
+		<div class="row" id="productRow">
+			
+		</div>
+	</div>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
