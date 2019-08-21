@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(45deg, rgb(236, 32, 32), rgb(99, 3, 3))
+}
+
 .train-1 {
     background: #ddd;
     padding: 30px 0
@@ -7,9 +11,6 @@
     background: #f3e7e7
 }
 
-body{
-    background: linear-gradient(45deg,rgb(236, 32, 32),rgb(99, 3, 3))
-}
-.jumbotron{
+.jumbotron {
     background-color: rgba(255, 255, 255, 0.432);
 }
