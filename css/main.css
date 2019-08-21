@@ -19,3 +19,9 @@ body {
 {
     color: palevioletred;
 }
+
+.mo-ali h1
+{
+    font-family:monospace;
+    font-size: 60px;
+}
